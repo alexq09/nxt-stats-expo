@@ -128,7 +128,7 @@ export default function FloatingActionButton({
 const styles = StyleSheet.create({
   container: {
     position: "absolute",
-    bottom: 30,
+    bottom: 100,
     right: 20,
     alignItems: "center",
   },
@@ -149,7 +149,7 @@ const styles = StyleSheet.create({
     elevation: 8,
   },
   optionContainer: {
-    flexDirection: "row",
+    flexDirection: "row-reverse",
     alignItems: "center",
     marginBottom: 16,
   },
@@ -172,7 +172,7 @@ const styles = StyleSheet.create({
     borderColor: "#E5E7EB",
   },
   optionLabel: {
-    marginLeft: 12,
+    marginRight: 12,
     fontSize: 14,
     fontWeight: "500",
     color: "#1A1A1A",
