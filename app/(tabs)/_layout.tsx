@@ -1,3 +1,4 @@
+import IndexHeader from "@/components/index/IndexHeader";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import { Tabs } from "expo-router";
 
@@ -21,6 +22,7 @@ export default function TabsLayout() {
         name="index"
         options={{
           title: "Today's Habits",
+          header: () => <IndexHeader />,
           tabBarIcon: ({ color, size }) => (
             <MaterialCommunityIcons
               name="calendar-today"
