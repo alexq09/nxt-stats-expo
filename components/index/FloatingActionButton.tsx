@@ -128,7 +128,7 @@ export default function FloatingActionButton({
 const styles = StyleSheet.create({
   container: {
     position: "absolute",
-    bottom: 100,
+    bottom: 30,
     right: 20,
     alignItems: "center",
   },
